@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        div.jumbotron{
+            color: black;
+            background-color:#707FEC;
+            font-size: 20px;
+            font-weight:bold;
+            }
+        span{
+            color: white;
+        }
+        span:hover{
+            color: gray;
+            font-weight:bold;
+        }
+        .container-fluid{
+            background-color:white;
+            
+        }
+        .navbar{
+            background-color:black;
+        }
+        li a{
+            
+            color:#707FEC;
+        }
+        li a:hover{
+            
+            color:black;
+            background-color:black;
+            font:Arial,;
+            font-weight:bold;
+        }
+       
+    </style>
+    <body>
+        <title>APPLICATION FORM</title>
+        <div class = "container-fluid">
+            <div class ="jumbotron text-center">
+                UNITED NATIONS STAFF 1% FOR DEVELOPMENT FUND
+            </div>
+            <nav class="navbar default">
+                <div class="navbar-header">
+                <!-- Button for user to collapse or uncollapse the navbar -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navLinks">
+                    <span>Menu</span>
+                </button>
+                </div>
+                <ul class="nav navbar-nav text-center" id="navLinks">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Become a Member</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">How to Apply</a></li>
+                    <li><a href="#" class =>Application Form</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div><h1>APPLICATION FORM</h1></div>
+            <div>  </div>
+                <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email Address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 1: Quel est le nom de votre projet ?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 2: Dans quel pays se déroule le projet?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 3: Quel est le lieu précis du projet dans le pays (nom du village, du quartier, région, province, etc.)?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 4: Quel est le coût du projet(en dollars américains)? </label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 5: Quel est le montant demandé au Fonds 1%? Quel est le montant demandé à d’autres sources de financement?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 6: Quel est le budget total de votre projet ? Comment ce budget sera-t-il utilisé et réparti?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 7: Qui va se charger de la réalisation de ce projet? Allez-vous embaucher des travailleurs/euses ou des experts/es salariés/ées?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 8: Qui prépare et envoie cette demande de financement? Qui bénéficiera de ce projet (combien de personnes environ bénéficieront de ce projet)?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 9: Qui est à l’origine de ce projet?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 10: Quelle est la situation actuelle que le projet cherche à améliorer? Précisez en quoi ce projet est nécessaire.</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 11:  Quel est le but de ce projet ? Que vise-t-il à accomplir et à améliorer? </label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 12: Qui sont les personnes qui bénéficieront de ce projet?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 13: Combien de personnes approximativement bénéficieront de ce projet?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+        <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 14: Quelles ressources proviendront de la communauté locale et des personnes qui bénéficieront de ce projet?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  
+      <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 15: Qui est responsable de ce projet ?
+Avec qui le Fonds 1% communiquera (nom de la personne de contact, adresse postale, numéro de téléphone)?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+      <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 16: Comment les réalisations et les résultats du projet seront-ils mesurés et évalués?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+      <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 17: Quelles sont les informations bancaires pour le versement du financement (numéro de compte bancaire, nom du titulaire du compte, nom de la banque, adresse de la banque)?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 18: Votre organisation, structure, association, etc. est-elle déclarée et inscrite auprès du gouvernement local?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit Application</button>
+    </form>              
+        </div>
+    </body>
+</html>
