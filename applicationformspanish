@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        div.jumbotron{
+            color: black;
+            background-color:#707FEC;
+            font-size: 20px;
+            font-weight:bold;
+            }
+        span{
+            color: white;
+        }
+        span:hover{
+            color: gray;
+            font-weight:bold;
+        }
+        .container-fluid{
+            background-color:white;
+            
+        }
+        .navbar{
+            background-color:black;
+        }
+        li a{
+            
+            color:#707FEC;
+        }
+        li a:hover{
+            
+            color:black;
+            background-color:black;
+            font:Arial,;
+            font-weight:bold;
+        }
+       
+    </style>
+    <body>
+        <title>APPLICATION FORM</title>
+        <div class = "container-fluid">
+            <div class ="jumbotron text-center">
+                UNITED NATIONS STAFF 1% FOR DEVELOPMENT FUND
+            </div>
+            <nav class="navbar default">
+                <div class="navbar-header">
+                <!-- Button for user to collapse or uncollapse the navbar -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navLinks">
+                    <span>Menu</span>
+                </button>
+                </div>
+                <ul class="nav navbar-nav text-center" id="navLinks">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Become a Member</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">How to Apply</a></li>
+                    <li><a href="#" class =>Application Form</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div><h1>FORMULARIO DE SOLICITUD</h1></div>
+            <div>  </div>
+                <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Su e-mail de contacto:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@ejemplo.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 1: ¿Cúal es el título de su proyecto?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 2: ¿En qué país se desarrolla el proyecto?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 3: ¿Dónde, precisamente, en el país se ubica el proyecto?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 4: ¿Cuál es el costo del proyecto?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 5: ¿Cuál es el monto solicitado al Fondo 1%?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 6: ¿Cuál es el presupuesto total del proyecto? ¿Cómo van a utilizar y repartir este presupuesto?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 7: ¿Quién va a realizar el proyecto? ¿Se contratará a trabajadores/as o expertos/as asalariados/as?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 8: ¿Quién prepara y manda esta solicitud de financiación?
+¿Quiénes serán las personas beneficiarias? (indique aproximadamente el número de personas que beneficiarán del proyecto)?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 9: ¿Quién inició este proyecto?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 10: ¿Cuál es la situación presente que el proyecto busca mejorar? ¿Por qué este proyecto es necesario?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 11: ¿Cúal es la meta de este proyecto? ¿Qué aspira a realizar y a mejorar?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Question 12: ¿Quiénes son las personas que van a beneficiar de este proyecto?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 13: Aproximadamente, ¿cuántas personas se beneficiarán de este proyecto?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+        <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 14:¿Qué recursos provendrán de la comunidad local y de las personas beneficiarias? </label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  
+      <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 15: ¿Quién es responsable de este proyecto? 
+¿Quién será la persona responsable de la comunicación con el Fondo 1% (nombre, apellido/s, dirección postal y número de teléfono)?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+      <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 16: ¿Cómo se medirá el cumplimiento y los resultados del proyecto?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+      <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 17: ¿Cuál es la información bancaria para la transferencia  de la financiación (nombre del banco, número de cuenta bancaria, titular de la cuenta, dirección postal del banco)?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pregunta 18: ¿Consta en el registro del gobierno local su organización, estructura o asociación?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Enviar La Solicitud</button>
+    </form>              
+        </div>
+    </body>
+</html>
+
