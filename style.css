@@ -1,0 +1,37 @@
+div.jumbotron{
+            color: black;
+            background-color:#707FEC;
+            font-size: 20px;
+            font-weight:bold;
+            }
+
+span{
+            color: white;
+        }
+
+span:hover{
+            color: gray;
+            font-weight:bold;
+        }
+
+.container-fluid{
+            background-color:white;
+            
+        }
+
+.navbar{
+            background-color:black;
+        }
+
+li a{
+            
+            color:#707FEC;
+        }
+
+li a:hover{
+            
+            color:black;
+            background-color:black;
+            font:Arial,;
+            font-weight:bold;
+        }
